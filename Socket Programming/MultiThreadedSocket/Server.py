@@ -1,7 +1,8 @@
 import socket
 import threading
+
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server.bind(("192.168.1.86", 5000))
+server.bind(("192.168.1.53", 5000))
 server.listen(5)
 print("Server is waiting for clients...")
 
